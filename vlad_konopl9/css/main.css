@@ -1,0 +1,98 @@
+*{
+	outline: none;
+}
+h1{
+	margin-left: 300px;
+	color: #00405d;
+}
+.nav{
+	width: 170px;
+	height: 180px;
+	float: left;
+}
+.main_button{
+	width: 70px;
+	height: 30px;
+	display: block;
+	border: none;
+	background: #00405d;
+	margin: 5px;
+	font-size: 14px;
+	border-radius: 4px;
+	color: #fff;
+	float: left;
+}
+.nemnogo_w_lewo{
+	margin-left: 10px;
+}
+
+.main_button:hover{
+	box-shadow: 0px 0px 30px 0px rgba(50, 50, 117, 1);
+	transform:scale(1.1);
+}
+#pole{
+	border: 2px solid #ccc;
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 1015px;
+	height: 510px;
+	float: left;
+	border-radius: 10px;
+}
+.left_button{
+	width: 64px;
+	height: 64px;
+	border: none;
+	background: url(../image/1leftarrow_5251.png);
+}
+.right_button{
+	width: 64px;
+	height: 64px;
+	border: none;
+	background: url(../image/2rightarrow_3129.png);
+}
+
+.tot_button{
+	width: 64px;
+	height: 64px;
+	border: none;
+	background: url(../image/2uparrow_3230.png);
+}
+
+.bottom_button{
+	width: 64px;
+	height: 64px;
+	border: none;
+	background: url(../image/1downarrow_7699.png);
+}
+.igrok{
+	width: 100px;
+	height: 100px;
+	background: green;
+	top: 100px;
+	left: 500px;
+	position: absolute;
+	border-radius: 50px;	
+	background: url(../image/vlad.jpg);
+}
+.vrag{
+	width: 100px;
+	height: 100px;
+	background: red;
+	top: 200px;
+	position: absolute;
+	left: 200px;
+	border-radius: 50px;
+	background: url(../image/konoplia.jpg);
+}
+.finish{
+	border: 1px solid #ccc;
+	width: 428px;
+	height: 500px;
+	display: none;
+	bottom: 0;
+	right: 0;
+	background: url(../image/prigolg_vc.jpg);
+	position: absolute;
+
+}
