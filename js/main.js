@@ -42,8 +42,47 @@ function openMenyTop(){
 };
 window.onload = function() {
       setInterval(openMenyTop, 100);
+      goTellMy();
 };
 
+function goTellMy(){
+	$(".projektsX").mouseenter(function(){
+		$(".activePro", this).show();
+		$(".nameProjekts", this).animate({	
+   			 height: "toggle"
+  		}, 500, function() {
+ 	   		// Animation complete.
+  		});
+  		$(".simplehr", this).animate({	
+   			width: "toggle"
+  		}, 500, function() {
+ 	   		// Animation complete.
+  		});
+  		$(".textProjekts", this).animate({	
+   			height: "toggle"
+  		}, 500, function() {
+ 	   		// Animation complete.
+  		});
+	})
+	$(".projektsX").mouseleave(function(){
+		$(".activePro", this).hide();
+		$(".nameProjekts", this).animate({	
+   			 height: "toggle"
+  		}, 200, function() {
+ 	   		// Animation complete.
+  		});
+  		$(".simplehr", this).animate({	
+   			 width: "toggle"
+  		}, 100, function() {
+ 	   		// Animation complete.
+  		});
+  		$(".textProjekts", this).animate({	
+   			height : "toggle"
+  		}, 100, function() {
+ 	   		// Animation complete.
+  		});
+	})	
+}
 
 
 

@@ -7,9 +7,9 @@ body{
 	background: #D7D3CB;
 	background: url(../image/background1.jpg);
 	font-size: 18px;
-  line-height: 1.64;
+  	line-height: 1.64;
     color: #434242;
-  font-family: 'Open Sans', sans-serif !important;
+  	font-family: 'Open Sans', sans-serif !important;
 }
 a{
 	text-decoration: none;
@@ -83,6 +83,10 @@ h2{
 	text-align: center;
 	padding-top: 20px; 
 	font-family: italic;
+}
+h5{
+	
+	color: #ffffff;
 }
 .main_content{
 	width: auto;
@@ -363,16 +367,48 @@ ul.no-bullets  li:hover{
 	float: left;
 	margin: 10px 33px; 	
 }
-.projektsX:hover{
-	box-shadow: 0px 0px 0.5px;
-	
+.activePro{
+	width: 330px;
+	border-radius: 4px;
+	height: 235px;
+	background: #4CB3B0;
+	display: none;
+	opacity: 0.55;
+	position: absolute;
 }
+.nameProjekts{
+	padding-top: 25px;
+	color: #fff;
+	display: none;
+	font-size: 35px;
+	margin-left: 56px;
+	font-weight: 600;
+	position: absolute;
+
+}
+.simplehr{
+	display: none;
+	width: 250px;
+	margin-left: 40px;
+	border: 1px solid #fff;
+	position: absolute;
+	margin-top: 80px;
+}
+.textProjekts{
+	display: none;
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 50px;
+	font-size: 16px;
+	color: #fff;
+}
+.projektsX:hover{
+	box-shadow: 0px 0px 0.5px;	
+}
+
 .baekPro{
 	background: url(../image/projekts1.png) no-repeat;
 	background-size: 100%;	
+
 }
-@media screen and (max-width: 740px) {
-    #menyTop ul li {
-       font-size: 10px;
-    }
-}
+
